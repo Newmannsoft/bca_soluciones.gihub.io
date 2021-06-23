@@ -1,0 +1,94 @@
+.img-important {
+    max-height: 35px !important;
+}
+
+.btn-afiliarse {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-afiliarse:hover {
+    background-color: #00a4f0;
+    cursor: pointer;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: fill;
+    filter: saturate(130%);
+}
+
+#carousel{
+    position: relative;
+}
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+}
+
+/* #carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+} */
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel .overlay .container { 
+    text-align: right;
+}
+
+#services .container .podemos{
+    color: #0d6efd;
+}
+
+#services .container .card {
+    max-height: 80vh;
+}
+
+#services .container .card-img-top {
+    height: 224px;
+}
+
+#services .container .card  a{
+    position: absolute;
+}
+
+#documentation .container .podemos{
+    color: #0d6efd;
+}
+
+#bca{
+    max-width: 100% !important;
+}
+
+#covenants .carousel-inner img{
+    height: 50vh;
+    object-fit: fill;
+    filter: saturate(130%);
+}
+
+#footer {
+background: linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+padding: 2%;
+}
+
+#footer a {
+    color: white;
+}
